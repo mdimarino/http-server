@@ -1,8 +1,8 @@
 APP="http-server"
 
-## build: construindo a aplicação
+## build: constrói a aplicação
 build:
-	@echo "Construindo a aplicação"
+	@echo "Constrói a aplicação"
 	@go build -o bin/${APP} src/main.go
 
 ## run: roda a aplicação src/main.go
